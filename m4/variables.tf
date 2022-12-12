@@ -55,3 +55,7 @@ variable "placeholder" {
   default     = "placedog.net"
   description = "(Optional) Diamond Dog URL. Defaults to placedog.net."
 }
+
+variable "billable" {
+  type = string
+}
